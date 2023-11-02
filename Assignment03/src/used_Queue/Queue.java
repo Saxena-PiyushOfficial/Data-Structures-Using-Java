@@ -55,7 +55,7 @@ public class Queue {
 		return element;
 	}
 	public int countElemets() {
-		int count=front;
+		int count=0;
 		if(isEmpty())
 			return -1;
 		else
